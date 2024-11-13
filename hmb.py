@@ -2,7 +2,10 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 
-token = "MTI5OTMxOTg4ODQzMDQ5NzkwMw.GE_muB.R179uc47fYWzafW23Ds5g6IaztPbAtEtLVI8ZY"
+token = "MTI5OTMxOTg4ODQzMDQ5NzkwMw.GMbwUT."
+token2 ="en1NUq0RtUpkTaMfy7Ca1zbg6SX0NLHacV_8fs"
+
+tokenn = token + token2
 
 intents = discord.Intents.default()
 intents.members = True  
@@ -23,7 +26,7 @@ async def on_ready():
 
 
 
-bot.run(token)
+bot.run(tokenn)
 
 
 
